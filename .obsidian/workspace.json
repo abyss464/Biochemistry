@@ -41,19 +41,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "蛋白质/α螺旋.md",
+                "file": "超二级结构.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "α螺旋"
+              "title": "超二级结构"
+            }
+          },
+          {
+            "id": "7fbe2345b07a8a07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "结构域.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "结构域"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
-        "id": "8fab45e944179704",
+        "id": "f36d3200fbad8ed3",
         "type": "tabs",
         "children": [
           {
@@ -125,7 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 257.5
   },
   "right": {
     "id": "56b84d7b5757ea82",
@@ -238,8 +252,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d1820ae4e7ab05a9",
+  "active": "7fbe2345b07a8a07",
   "lastOpenFiles": [
+    "超二级结构.md",
+    "结构域.md",
+    "未命名",
+    "蛋白质/Π螺旋.md",
+    "蛋白质/310-螺旋.md",
     "蛋白质/α螺旋.md",
     "蛋白质/蛋白质的二级结构.md",
     "蛋白质/蛋白质的三维结构测序.md",
@@ -266,10 +285,6 @@
     "非共价力",
     "非共价力/疏水性相互作用.md",
     "层析",
-    "氨基酸/具体氨基酸/脯氨酸.md",
-    "氨基酸/非极性脂肪族氨基酸.md",
-    "氨基酸/芳香族氨基酸.md",
-    "氨基酸/具体氨基酸/苯丙氨酸.md",
     "氨基酸/具体氨基酸",
     "氨基酸",
     "未命名.base"
