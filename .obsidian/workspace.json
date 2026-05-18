@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "f6bf68fc152d7132",
+        "id": "b4ad902ad1828fa0",
         "type": "tabs",
         "children": [
           {
-            "id": "89ab51ef0156e6a7",
+            "id": "3311493ecbac4538",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "蛋白质/蛋白质.md",
+                "file": "第9章 糖类和糖生物学/5 多糖/杂多糖.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "蛋白质"
-            }
-          },
-          {
-            "id": "8f67805d039fc23e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "蛋白质/蛋白质的二级结构.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "蛋白质的二级结构"
-            }
-          },
-          {
-            "id": "d1820ae4e7ab05a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "第4章 蛋白质的生物学功能/一 蛋白质功能的多样性/蛋白质生物学功能分类.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "蛋白质生物学功能分类"
+              "title": "杂多糖"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -90,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           },
           {
@@ -107,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 200
   },
   "right": {
     "id": "56b84d7b5757ea82",
@@ -197,8 +168,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -206,92 +177,68 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:新建数据库": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "7ea9601e17019c44",
-    "type": "floating",
-    "children": [
-      {
-        "id": "833fb76a86647139",
-        "type": "window",
-        "children": [
-          {
-            "id": "8e2a60443218412d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "4a558554e9709796",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {},
-                  "icon": "lucide-git-fork",
-                  "title": "关系图谱"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -1152,
-        "y": 12,
-        "width": 1152,
-        "height": 850,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "d1820ae4e7ab05a9",
+  "active": "3ed39e3dd2c79924",
   "lastOpenFiles": [
-    "第4章 蛋白质的生物学功能/一 蛋白质功能的多样性/蛋白质生物学功能分类.md",
-    "第4章 蛋白质的生物学功能/一 蛋白质功能的多样性",
-    "第4章 蛋白质的生物学功能",
-    "配体.md",
-    "未分类/层析/离子交换层析.md",
-    "未分类/层析/分配层析.md",
-    "未分类/层析",
-    "未分类/配体.md",
-    "未分类/超二级结构.md",
-    "未分类/茚三酮反应.md",
-    "未分类/范德华半径.md",
-    "未分类/肽.md",
-    "未分类/结构域.md",
-    "未分类/等电点.md",
-    "未分类/立体专一性.md",
-    "未分类/生物分子构象.md",
-    "未分类/化学修饰.md",
-    "未分类/分光光度法.md",
-    "未分类/RS命名法.md",
-    "未分类/LICENSE",
-    "未分类/DL命名法.md",
-    "未分类/非共价力/范德华力.md",
-    "未分类/非共价力/离子键.md",
-    "未分类/非共价力/疏水性相互作用.md",
-    "未分类/非共价力/氢键.md",
-    "未分类/非共价力",
-    "未分类/蛋白质/蛋白质的分类.md",
-    "未分类/蛋白质/蛋白质的二级结构.md",
-    "未分类/蛋白质/蛋白质的三维结构测序.md",
-    "未分类/蛋白质/蛋白质的一级结构测序.md",
-    "未分类/蛋白质/蛋白质.md",
-    "未分类/蛋白质",
-    "未分类/氨基酸/具体氨基酸",
-    "未分类/氨基酸",
-    "未分类",
-    "蛋白质"
+    "资源/Pasted image 20260518133455.png",
+    "第9章 糖类和糖生物学/5 多糖/同多糖.md",
+    "第9章 糖类和糖生物学/5 多糖/同多糖的结构.md",
+    "第9章 糖类和糖生物学/5 多糖/杂多糖.md",
+    "资源/Pasted image 20260516141836.png",
+    "第9章 糖类和糖生物学/5 多糖/多糖的基本概念.md",
+    "第9章 糖类和糖生物学/4 寡糖/寡糖.md",
+    "第9章 糖类和糖生物学/5 多糖",
+    "第9章 糖类和糖生物学/3 重要的单糖和单糖衍生物/单糖.md",
+    "第9章 糖类和糖生物学/3 重要的单糖和单糖衍生物/糖苷.md",
+    "第9章 糖类和糖生物学/4 寡糖/寡糖的结构与命名.md",
+    "第9章 糖类和糖生物学/2 单糖的性质和结构/D-醛醣家系.md",
+    "第9章 糖类和糖生物学/2 单糖的性质和结构/Fischer投影式.md",
+    "第9章 糖类和糖生物学/2 单糖的性质和结构/单糖的物理和化学性质.md",
+    "第9章 糖类和糖生物学/2 单糖的性质和结构/单糖的构象.md",
+    "第9章 糖类和糖生物学/2 单糖的性质和结构/Haworth投影式.md",
+    "第9章 糖类和糖生物学/2 单糖的性质和结构/单糖的环状结构.md",
+    "第9章 糖类和糖生物学/2 单糖的性质和结构/单糖羰基碳的差向异构化.md",
+    "第9章 糖类和糖生物学/2 单糖的性质和结构/醛醣与酮糖.md",
+    "第9章 糖类和糖生物学/4 寡糖",
+    "资源/Pasted image 20260515134833.png",
+    "第9章 糖类和糖生物学/3 重要的单糖和单糖衍生物/脱氧糖.md",
+    "第9章 糖类和糖生物学/3 重要的单糖和单糖衍生物/氨基糖.md",
+    "资源/Pasted image 20260515132826.png",
+    "资源/Pasted image 20260515132708.png",
+    "第9章 糖类和糖生物学/3 重要的单糖和单糖衍生物/糖酸.md",
+    "资源/Pasted image 20260515132627.png",
+    "第9章 糖类和糖生物学/3 重要的单糖和单糖衍生物/糖醇.md",
+    "第9章 糖类和糖生物学/3 重要的单糖和单糖衍生物/单糖磷酸酯.md",
+    "资源/Pasted image 20260515102658.png",
+    "资源/Pasted image 20260514141213.png",
+    "Pasted image 20260514141133.png",
+    "资源/Pasted image 20260514135738.png",
+    "第5章 蛋白质的性质，分离纯化与鉴定/1 蛋白质在水溶液中的性质/沉淀蛋白的多种方法.md",
+    "资源/Pasted image 20260514124713.png",
+    "第9章 糖类和糖生物学/3 重要的单糖和单糖衍生物",
+    "第9章 糖类和糖生物学/2 单糖的性质和结构/D-酮糖家系.md",
+    "第9章 糖类和糖生物学/1 引言/糖的命名与分类.md",
+    "第9章 糖类和糖生物学/2 单糖的性质和结构",
+    "第9章 糖类和糖生物学/Untitled.md",
+    "第9章 糖类和糖生物学/1 引言",
+    "第9章 糖类和糖生物学",
+    "第8章 酶作用机制和酶活性调节/7 同工酶",
+    "$",
+    "第8章 酶作用机制和酶活性调节/6 酶活性的共价调节",
+    "第8章 酶作用机制和酶活性调节/5 酶活性的别构调节"
   ]
 }
