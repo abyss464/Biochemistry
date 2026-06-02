@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第10章 脂质和生物膜/1 贮存脂质/蜡.md",
+                "file": "第10章 脂质和生物膜/3 活性脂质/类萜.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "蜡"
+              "title": "类萜"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "凝集素",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.5
+    "width": 200
   },
   "right": {
     "id": "56b84d7b5757ea82",
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "第10章 脂质和生物膜/3 活性脂质/类萜.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "Backlinks for 类萜"
             }
           },
           {
@@ -168,12 +169,11 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,63 +182,63 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "bases:新建数据库": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3ed39e3dd2c79924",
+  "active": "95ae275719230be7",
   "lastOpenFiles": [
-    "资源/Pasted image 20260526203532.png",
+    "Pasted image 20260601160331.png",
+    "第10章 脂质和生物膜/3 活性脂质/类固醇.md",
+    "第10章 脂质和生物膜/3 活性脂质/类萜.md",
+    "第10章 脂质和生物膜/2 膜结构脂质/固醇.md",
+    "第10章 脂质和生物膜/3 活性脂质/磷脂酰肌醇.md",
+    "第10章 脂质和生物膜/3 活性脂质/白三烯.md",
+    "第10章 脂质和生物膜/2 膜结构脂质/膜结构脂质.md",
+    "第10章 脂质和生物膜/2 膜结构脂质/甘油磷脂.md",
+    "第9章 糖类和糖生物学/6 糖缀合物/蛋白聚糖的基本结构.md",
+    "第10章 脂质和生物膜/2 膜结构脂质/鞘氨醇.md",
     "第10章 脂质和生物膜/脂质.md",
-    "第10章 脂质和生物膜/1 贮存脂质/三酰甘油.md",
-    "资源/Pasted image 20260526203507.png",
+    "第10章 脂质和生物膜/3 活性脂质/类二十烷酸.md",
+    "第10章 脂质和生物膜/3 活性脂质/凝血烷.md",
+    "第10章 脂质和生物膜/3 活性脂质/前列腺素.md",
+    "第10章 脂质和生物膜/3 活性脂质/阿司匹林.md",
+    "第9章 糖类和糖生物学/7 糖类作为生物信息分子：糖密码/唾液酸.md",
+    "第9章 糖类和糖生物学/7 糖类作为生物信息分子：糖密码/凝集素.md",
+    "第9章 糖类和糖生物学/5 多糖/杂多糖.md",
+    "第9章 糖类和糖生物学/5 多糖/多糖的基本概念.md",
+    "第9章 糖类和糖生物学/5 多糖/同多糖的结构.md",
+    "第9章 糖类和糖生物学/5 多糖/同多糖.md",
+    "第9章 糖类和糖生物学/4 寡糖/寡糖的结构与命名.md",
+    "第9章 糖类和糖生物学/4 寡糖/寡糖.md",
+    "第9章 糖类和糖生物学/3 重要的单糖和单糖衍生物/单糖.md",
+    "第9章 糖类和糖生物学/3 重要的单糖和单糖衍生物/脱氧糖.md",
+    "第9章 糖类和糖生物学/3 重要的单糖和单糖衍生物/糖醇.md",
+    "资源/Pasted image 20260528160408.png",
+    "资源/Pasted image 20260528155340.png",
+    "资源/Pasted image 20260528141613.png",
+    "第10章 脂质和生物膜/3 活性脂质",
+    "资源/Pasted image 20260528134203.png",
+    "资源/Pasted image 20260527141723.png",
     "第10章 脂质和生物膜/2 膜结构脂质",
-    "第10章 脂质和生物膜/未命名.md",
-    "第10章 脂质和生物膜/1 贮存脂质/蜡.md",
-    "第10章 脂质和生物膜/1 贮存脂质/反式脂肪酸.md",
-    "第10章 脂质和生物膜/1 贮存脂质/脂肪酸盐与乳化作用.md",
-    "第10章 脂质和生物膜/1 贮存脂质/脂肪酸.md",
-    "第10章 脂质和生物膜/1 贮存脂质/脂质过氧化作用.md",
-    "第10章 脂质和生物膜/1 贮存脂质/油脂酸败.md",
+    "资源/Pasted image 20260526203532.png",
+    "资源/Pasted image 20260526203507.png",
     "资源/Pasted image 20260525141158.png",
-    "第10章 脂质和生物膜/1 贮存脂质/脂肪酸的物理化学性质.md",
     "第2章 氨基酸，肽和蛋白质/12 肽和蛋白质的化学合成",
     "第2章 氨基酸，肽和蛋白质/11 氨基酸序列与生物进化",
     "第2章 氨基酸，肽和蛋白质/10 蛋白质测序的一些常用方法",
     "第2章 氨基酸，肽和蛋白质/9 蛋白质的一级结构",
     "第2章 氨基酸，肽和蛋白质/8 蛋白质的组成分类分子大小和结构层次",
     "第2章 氨基酸，肽和蛋白质/7 肽",
-    "第2章 氨基酸，肽和蛋白质/6 氨基酸混合物的分析和分离/层析/离子交换层析.md",
-    "第2章 氨基酸，肽和蛋白质/6 氨基酸混合物的分析和分离/层析/分配层析.md",
     "第2章 氨基酸，肽和蛋白质/6 氨基酸混合物的分析和分离/层析",
     "第2章 氨基酸，肽和蛋白质/6 氨基酸混合物的分析和分离",
-    "第2章 氨基酸，肽和蛋白质/5 氨基酸的旋光性和光谱性质",
-    "第2章 氨基酸，肽和蛋白质/2 氨基酸的分类/具体氨基酸/酪氨酸.md",
-    "第2章 氨基酸，肽和蛋白质/2 氨基酸的分类/具体氨基酸/赖氨酸.md",
-    "第2章 氨基酸，肽和蛋白质/2 氨基酸的分类/具体氨基酸/苯丙氨酸.md",
-    "第2章 氨基酸，肽和蛋白质/2 氨基酸的分类/具体氨基酸/色氨酸.md",
-    "第2章 氨基酸，肽和蛋白质/2 氨基酸的分类/具体氨基酸/脯氨酸.md",
-    "第2章 氨基酸，肽和蛋白质/2 氨基酸的分类/具体氨基酸/组氨酸.md",
-    "第2章 氨基酸，肽和蛋白质/2 氨基酸的分类/具体氨基酸/精氨酸.md",
-    "第2章 氨基酸，肽和蛋白质/2 氨基酸的分类/具体氨基酸/甲硫氨酸.md",
-    "第2章 氨基酸，肽和蛋白质/2 氨基酸的分类/具体氨基酸/甘氨酸.md",
-    "第2章 氨基酸，肽和蛋白质/2 氨基酸的分类/具体氨基酸/半胱氨酸.md",
-    "第2章 氨基酸，肽和蛋白质/2 氨基酸的分类/非极性脂肪族氨基酸.md",
-    "第2章 氨基酸，肽和蛋白质/2 氨基酸的分类/芳香族氨基酸.md",
-    "第2章 氨基酸，肽和蛋白质/2 氨基酸的分类/氨基酸.md",
     "资源/Pasted image 20260519155632.png",
-    "资源/Pasted image 20260519131749.png",
-    "资源/Pasted image 20260518154507.png",
-    "资源/Pasted image 20260518143900.png",
-    "资源/Pasted image 20260518133455.png",
-    "资源/Pasted image 20260516141836.png",
-    "资源/Pasted image 20260515134833.png",
-    "资源/Pasted image 20260515132826.png"
+    "资源/Pasted image 20260519131749.png"
   ]
 }
