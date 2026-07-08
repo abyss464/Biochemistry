@@ -7,3 +7,6 @@ Thumbs.db
 
 # Claude
 .claude/
+
+# Obsidian
+.obsidian/
