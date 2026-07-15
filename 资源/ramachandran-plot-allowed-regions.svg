@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="820" viewBox="0 0 900 820" role="img" aria-labelledby="title description">
+  <title id="title">拉氏图的典型允许区</title>
+  <desc id="description">横轴为 phi，纵轴为 psi，标出 beta 折叠、右手 alpha 螺旋和左手 alpha 螺旋的典型落点，以及 phi 和 psi 均为零时的位阻冲突。</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      text { font-family: "Noto Sans CJK SC", "Noto Sans SC", "Noto Sans", sans-serif; fill: #172033; }
+      .heading { font-size: 28px; font-weight: 750; }
+      .label { font-size: 20px; font-weight: 700; }
+      .note { font-size: 17px; }
+      .tiny { font-size: 15px; }
+      .grid { stroke: #cbd5e1; stroke-width: 1.4; }
+      .axis { stroke: #475569; stroke-width: 2.4; }
+    </style>
+  </defs>
+  <rect width="900" height="820" fill="#f6f8fc"/>
+  <rect x="30" y="25" width="840" height="770" rx="22" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="65" y="70" class="heading">拉氏图：哪些 (φ, ψ) 组合在立体上可行？</text>
+  <rect x="80" y="91" width="24" height="15" rx="3" fill="#d9f2e4" stroke="#69b58a"/>
+  <text x="113" y="105" class="tiny">允许区</text>
+  <rect x="192" y="91" width="24" height="15" rx="3" fill="#61bf8c"/>
+  <text x="225" y="105" class="tiny">优选区</text>
+  <text x="340" y="105" class="tiny" fill="#607086">空白区 = 非键合原子发生立体冲突</text>
+
+  <rect x="150" y="130" width="600" height="600" fill="#fbfcfe" stroke="#64748b" stroke-width="2"/>
+  <g>
+    <line x1="150" y1="130" x2="150" y2="730" class="grid"/><line x1="300" y1="130" x2="300" y2="730" class="grid"/>
+    <line x1="450" y1="130" x2="450" y2="730" class="grid"/><line x1="600" y1="130" x2="600" y2="730" class="grid"/>
+    <line x1="750" y1="130" x2="750" y2="730" class="grid"/>
+    <line x1="150" y1="130" x2="750" y2="130" class="grid"/><line x1="150" y1="280" x2="750" y2="280" class="grid"/>
+    <line x1="150" y1="430" x2="750" y2="430" class="grid"/><line x1="150" y1="580" x2="750" y2="580" class="grid"/>
+    <line x1="150" y1="730" x2="750" y2="730" class="grid"/>
+    <line x1="450" y1="130" x2="450" y2="730" class="axis"/><line x1="150" y1="430" x2="750" y2="430" class="axis"/>
+  </g>
+
+  <path d="M152 132 L374 132 C398 180, 372 240, 350 290 C328 343, 335 388, 287 404 C230 424, 178 375, 152 330 Z" fill="#d9f2e4" stroke="#69b58a" stroke-width="2.5"/>
+  <path d="M180 380 C226 340, 336 340, 396 380 C425 428, 401 524, 359 599 C321 638, 250 620, 216 563 C181 503, 157 424, 180 380 Z" fill="#d9f2e4" stroke="#69b58a" stroke-width="2.5"/>
+  <path d="M504 332 C544 281, 633 281, 675 334 C705 380, 683 445, 627 475 C569 498, 504 448, 496 393 C494 372, 497 350, 504 332 Z" fill="#d9f2e4" stroke="#69b58a" stroke-width="2.5"/>
+  <path d="M162 142 L347 142 C365 184, 340 240, 320 279 C291 328, 225 348, 178 309 L162 259 Z" fill="#61bf8c"/>
+  <path d="M241 413 C276 378, 350 380, 380 423 C400 471, 365 554, 328 580 C283 594, 242 551, 235 502 C227 461, 228 437, 241 413 Z" fill="#61bf8c"/>
+  <ellipse cx="545" cy="352" rx="43" ry="54" fill="#61bf8c"/>
+
+  <g class="tiny" fill="#53657a">
+    <text x="150" y="754" text-anchor="middle">−180</text><text x="300" y="754" text-anchor="middle">−90</text>
+    <text x="450" y="754" text-anchor="middle">0</text><text x="600" y="754" text-anchor="middle">+90</text><text x="750" y="754" text-anchor="middle">+180</text>
+    <text x="137" y="136" text-anchor="end">+180</text><text x="137" y="286" text-anchor="end">+90</text>
+    <text x="137" y="436" text-anchor="end">0</text><text x="137" y="586" text-anchor="end">−90</text><text x="137" y="736" text-anchor="end">−180</text>
+  </g>
+  <text x="450" y="782" class="label" text-anchor="middle">φ (degrees)</text>
+  <text x="76" y="430" class="label" text-anchor="middle" transform="rotate(-90 76 430)">ψ (degrees)</text>
+
+  <circle cx="225" cy="205" r="8" fill="#1d4ed8" stroke="#ffffff" stroke-width="3"/>
+  <text x="242" y="198" class="label" fill="#1d4ed8">β 折叠</text><text x="242" y="220" class="tiny" fill="#365b91">−135°, +135°</text>
+  <circle cx="355" cy="508" r="8" fill="#7c3aed" stroke="#ffffff" stroke-width="3"/>
+  <text x="373" y="520" class="label" fill="#6d28d9">右手 α</text><text x="373" y="542" class="tiny" fill="#68489a">−57°, −47°</text>
+  <circle cx="545" cy="352" r="8" fill="#ea580c" stroke="#ffffff" stroke-width="3"/>
+  <text x="565" y="344" class="label" fill="#c2410c">左手 α</text>
+  <line x1="440" y1="420" x2="460" y2="440" stroke="#dc2626" stroke-width="5"/><line x1="460" y1="420" x2="440" y2="440" stroke="#dc2626" stroke-width="5"/>
+  <text x="470" y="452" class="note" fill="#b91c1c">(0°, 0°)：位阻冲突</text>
+</svg>

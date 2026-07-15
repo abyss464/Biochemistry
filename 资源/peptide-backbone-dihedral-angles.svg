@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title description">
+  <title id="title">多肽主链上的 phi、psi 和 omega 二面角</title>
+  <desc id="description">沿多肽主链标出 phi、psi 和 omega 的旋转键，显示 phi 和 psi 是相邻肽平面之间的两个铰链，omega 则被肽键平面性锁定。</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+    <marker id="purpleArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#7c3aed"/>
+    </marker>
+    <marker id="orangeArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#ea580c"/>
+    </marker>
+    <style>
+      text { font-family: "Noto Sans CJK SC", "Noto Sans SC", "Noto Sans", sans-serif; fill: #172033; }
+      .heading { font-size: 28px; font-weight: 750; }
+      .label { font-size: 21px; font-weight: 700; }
+      .note { font-size: 18px; }
+      .bond { stroke: #263449; stroke-width: 6; stroke-linecap: round; }
+      .peptide { stroke: #dc2626; stroke-width: 9; stroke-linecap: round; }
+      .atom { fill: #ffffff; stroke: #334155; stroke-width: 2.5; }
+      .atom-text { font-size: 20px; font-weight: 700; text-anchor: middle; dominant-baseline: middle; }
+    </style>
+  </defs>
+  <rect width="1200" height="560" fill="#f6f8fc"/>
+  <rect x="30" y="30" width="1140" height="500" rx="22" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="60" y="78" class="heading">一个残基的三个主链二面角</text>
+  <polygon points="65,285 195,150 500,160 550,330 375,395 120,375" fill="#dbeafe" stroke="#79a8df" stroke-width="2" opacity="0.74"/>
+  <polygon points="505,160 810,150 1125,285 1060,400 730,390 555,330" fill="#dcfce7" stroke="#71b88b" stroke-width="2" opacity="0.74"/>
+  <text x="130" y="185" class="note" fill="#326ba6">肽平面 i−1</text>
+  <text x="965" y="185" class="note" fill="#2f7b52">肽平面 i</text>
+
+  <line x1="110" y1="300" x2="260" y2="235" class="bond"/>
+  <line x1="260" y1="235" x2="410" y2="300" class="peptide"/>
+  <line x1="410" y1="300" x2="575" y2="235" stroke="#7c3aed" stroke-width="9" stroke-linecap="round"/>
+  <line x1="575" y1="235" x2="740" y2="300" stroke="#ea580c" stroke-width="9" stroke-linecap="round"/>
+  <line x1="740" y1="300" x2="900" y2="235" class="peptide"/>
+  <line x1="900" y1="235" x2="1080" y2="300" class="bond"/>
+  <line x1="252" y1="224" x2="280" y2="165" class="bond"/>
+  <line x1="264" y1="229" x2="292" y2="170" class="bond"/>
+  <line x1="732" y1="311" x2="760" y2="370" class="bond"/>
+  <line x1="744" y1="306" x2="772" y2="365" class="bond"/>
+  <line x1="410" y1="315" x2="410" y2="375" class="bond"/>
+  <line x1="900" y1="219" x2="900" y2="165" class="bond"/>
+  <g>
+    <circle cx="110" cy="300" r="30" class="atom"/><text x="110" y="300" class="atom-text">Cαᵢ₋₁</text>
+    <circle cx="260" cy="235" r="27" class="atom"/><text x="260" y="235" class="atom-text">Cᵢ₋₁</text>
+    <circle cx="410" cy="300" r="27" class="atom"/><text x="410" y="300" class="atom-text">Nᵢ</text>
+    <circle cx="575" cy="235" r="30" class="atom"/><text x="575" y="235" class="atom-text">Cαᵢ</text>
+    <circle cx="740" cy="300" r="27" class="atom"/><text x="740" y="300" class="atom-text">Cᵢ</text>
+    <circle cx="900" cy="235" r="27" class="atom"/><text x="900" y="235" class="atom-text">Nᵢ₊₁</text>
+    <circle cx="1080" cy="300" r="35" class="atom"/><text x="1080" y="300" class="atom-text">Cαᵢ₊₁</text>
+    <circle cx="288" cy="155" r="22" class="atom"/><text x="288" y="155" class="atom-text">O</text>
+    <circle cx="410" cy="396" r="22" class="atom"/><text x="410" y="396" class="atom-text">H</text>
+    <circle cx="768" cy="382" r="22" class="atom"/><text x="768" y="382" class="atom-text">O</text>
+    <circle cx="900" cy="150" r="22" class="atom"/><text x="900" y="150" class="atom-text">H</text>
+  </g>
+
+  <path d="M438 250 C465 205, 525 194, 558 218" fill="none" stroke="#7c3aed" stroke-width="4" marker-end="url(#purpleArrow)"/>
+  <text x="485" y="184" class="label" fill="#7c3aed">φ（phi）</text>
+  <path d="M595 296 C625 350, 688 357, 724 321" fill="none" stroke="#ea580c" stroke-width="4" marker-end="url(#orangeArrow)"/>
+  <text x="620" y="382" class="label" fill="#ea580c">ψ（psi）</text>
+  <path d="M786 252 A52 52 0 0 1 856 307" fill="none" stroke="#dc2626" stroke-width="4" stroke-dasharray="7 6"/>
+  <text x="808" y="214" class="label" fill="#dc2626">ω（omega）</text>
+
+  <rect x="75" y="438" width="305" height="62" rx="14" fill="#f3e8ff"/>
+  <text x="227" y="465" class="label" text-anchor="middle" fill="#6d28d9">φ：Nᵢ—Cαᵢ</text>
+  <text x="227" y="489" class="note" text-anchor="middle">单键，可转动</text>
+  <rect x="447" y="438" width="305" height="62" rx="14" fill="#fff1e6"/>
+  <text x="599" y="465" class="label" text-anchor="middle" fill="#c2410c">ψ：Cαᵢ—Cᵢ</text>
+  <text x="599" y="489" class="note" text-anchor="middle">单键，可转动</text>
+  <rect x="819" y="438" width="305" height="62" rx="14" fill="#fff1f2"/>
+  <text x="971" y="465" class="label" text-anchor="middle" fill="#b91c1c">ω：Cᵢ—Nᵢ₊₁</text>
+  <text x="971" y="489" class="note" text-anchor="middle">肽键，几乎锁定在反式</text>
+</svg>
