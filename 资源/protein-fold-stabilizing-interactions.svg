@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title description">
+  <title id="title">折叠蛋白质中的主要稳定作用力</title>
+  <desc id="description">以蛋白质横截面示意疏水核、氢键、离子对、范德华力和二硫键在折叠结构中的位置。</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.10"/></filter>
+    <style>text { font-family: "Noto Sans CJK SC", "Noto Sans SC", "Noto Sans", sans-serif; fill: #172033; }.heading { font-size: 28px; font-weight: 750; }.label { font-size: 20px; font-weight: 700; }.note { font-size: 17px; }.leader { stroke: #64748b; stroke-width: 2.5; fill: none; }.residue { stroke: #ffffff; stroke-width: 3; }</style>
+  </defs>
+  <rect width="1200" height="560" fill="#f6f8fc"/><rect x="30" y="28" width="1140" height="504" rx="22" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="60" y="75" class="heading">折叠后，许多弱作用共同稳定一个构象</text>
+  <path d="M365 118 C510 80 720 105 806 210 C894 316 815 448 677 480 C520 517 344 458 300 344 C260 240 278 151 365 118 Z" fill="#dbeafe" stroke="#7aa7df" stroke-width="3"/>
+  <path d="M452 220 C520 165 657 174 713 240 C772 310 710 393 627 410 C535 429 443 384 420 318 C403 272 417 242 452 220 Z" fill="#f5d0a9" stroke="#cf8a43" stroke-width="3"/>
+  <g fill="#b96b2d"><circle cx="490" cy="273" r="25" class="residue"/><circle cx="555" cy="235" r="25" class="residue"/><circle cx="627" cy="263" r="25" class="residue"/><circle cx="680" cy="318" r="25" class="residue"/><circle cx="598" cy="353" r="25" class="residue"/><circle cx="510" cy="340" r="25" class="residue"/></g>
+  <text x="565" y="306" class="label" text-anchor="middle" fill="#7c3f12">疏水核</text>
+  <circle cx="395" cy="190" r="22" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/><text x="395" y="197" class="label" text-anchor="middle" fill="#1d4ed8">O</text><circle cx="468" cy="150" r="22" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/><text x="468" y="157" class="label" text-anchor="middle" fill="#0369a1">H</text><line x1="417" y1="178" x2="446" y2="162" stroke="#2563eb" stroke-width="3" stroke-dasharray="7 6"/>
+  <path d="M385 170 L230 135" class="leader"/><text x="70" y="132" class="label" fill="#1d4ed8">氢键</text><text x="70" y="158" class="note">有方向性，大量协同形成</text>
+  <circle cx="755" cy="177" r="25" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/><text x="755" y="185" font-size="27" font-weight="800" text-anchor="middle" fill="#b91c1c">+</text><circle cx="807" cy="220" r="25" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text x="807" y="228" font-size="28" font-weight="800" text-anchor="middle" fill="#1d4ed8">−</text><line x1="778" y1="196" x2="786" y2="202" stroke="#8b5cf6" stroke-width="4" stroke-dasharray="6 5"/>
+  <path d="M804 173 L940 130" class="leader"/><text x="956" y="128" class="label" fill="#7c3aed">离子对（盐桥）</text><text x="956" y="154" class="note">异号电荷吸引</text>
+  <g fill="#c4b5fd" stroke="#7c3aed" stroke-width="2"><circle cx="372" cy="363" r="18"/><circle cx="412" cy="382" r="18"/><circle cx="388" cy="412" r="18"/></g><path d="M358 396 L205 445" class="leader"/><text x="70" y="443" class="label" fill="#6d28d9">范德华力</text><text x="70" y="469" class="note">近距离原子紧密堆积</text>
+  <circle cx="747" cy="398" r="23" fill="#fef3c7" stroke="#d97706" stroke-width="2"/><text x="747" y="405" class="label" text-anchor="middle" fill="#a16207">S</text><circle cx="799" cy="376" r="23" fill="#fef3c7" stroke="#d97706" stroke-width="2"/><text x="799" y="383" class="label" text-anchor="middle" fill="#a16207">S</text><line x1="769" y1="389" x2="777" y2="385" stroke="#d97706" stroke-width="6"/>
+  <path d="M807 403 L940 447" class="leader"/><text x="956" y="445" class="label" fill="#a16207">二硫键</text><text x="956" y="471" class="note">少数强共价交联</text>
+  <text x="564" y="510" class="note" text-anchor="middle" fill="#53657a">非极性侧链多埋入内部；极性与带电侧链多面向水相</text>
+</svg>
